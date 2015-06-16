@@ -26,6 +26,6 @@ Added
 
 <p>
 Demo Link: <a href="https://github.com/bhusarisuccess/GridSearchImage/blob/master/Demo/Demo.gif"> <br> <br>
-<img border="0" src="https://github.com/bhusarisuccess/GridSearchImage/blob/master/Demo/Demo.gif" width="100%" height="100%"> <br>
+<img border="0" src="https://github.com/bhusarisuccess/GridSearchImage/blob/master/Demo/Demo.gif" width="60%" height="60%"> <br>
 </a>
 </p>
