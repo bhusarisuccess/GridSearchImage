@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".SearchActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSearch"
+        android:layout_toLeftOf="@+id/btnSearch"
+
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btnSearch"
+        android:onClick="onImageSearch"
+        android:layout_alignTop="@+id/etSearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gdResult"
+        android:numColumns="3"
+        android:layout_below="@+id/btnSearch"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:choiceMode="none" />
+</RelativeLayout>
