@@ -3,4 +3,24 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string-array name="size">
+        <item>any</item>
+        <item>small</item>
+        <item>larg</item>
+    </string-array>
+    <string-array name="color">
+        <item>red</item>
+        <item>browno</item>
+        <item>blue</item>
+        <item>cyan</item>
+        <item>gray</item>
+        <item>green</item>
+    </string-array>
+    <string-array name="type">
+        <item>any</item>
+        <item>faces</item>
+        <item></item>
+    </string-array>
 </resources>

@@ -2,15 +2,29 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.glitterlab.gridimagesearch.activity.ImageDisplayActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/lltop"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
 
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ivShare"
+            android:src="@drawable/share_icon"/>
+    </LinearLayout>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/ivImageFull"
         android:scaleType="center"
+        android:layout_below="@+id/lltop"
         android:adjustViewBounds="true"
-        android:layout_alignParentTop="true"
+
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

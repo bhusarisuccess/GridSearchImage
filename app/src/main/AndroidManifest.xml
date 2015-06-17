@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.glitterlab.gridsearchimage" >
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    //premition for check network state.
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.glitterlab.gridsearchimage.activities.SearchActivity"
+            android:name=".activities.SearchActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.glitterlab.gridsearchimage.activities.ImageDisplayActivity"
+            android:name=".activities.ImageDisplayActivity"
             android:label="@string/app_name" />
+        <activity
+            android:name=".activities.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/settingTheme">
+        </activity>
     </application>
 
 </manifest>

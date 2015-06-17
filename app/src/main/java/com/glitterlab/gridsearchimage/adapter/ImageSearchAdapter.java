@@ -34,8 +34,8 @@ public class ImageSearchAdapter extends ArrayAdapter<ImageSearchResult> {
         ImageView image= (ImageView)convertView.findViewById(R.id.ivImage);
         TextView tvtitle = (TextView)convertView.findViewById(R.id.tvTitle);
 image.setImageResource(0);
-        tvtitle.setText(Html.fromHtml(imageInfo.title));
-        Picasso.with(getContext()).load(imageInfo.thumburl).into(image);
+        tvtitle.setText(Html.fromHtml(ImageSearchResult.title));
+        Picasso.with(getContext()).load(ImageSearchResult.thumburl).into(image);
 
 
 

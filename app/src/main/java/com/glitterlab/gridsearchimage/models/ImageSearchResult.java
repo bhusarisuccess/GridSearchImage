@@ -8,11 +8,11 @@ import org.json.JSONObject;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class ImageSearchResult implements Serializable {
+public class ImageSearchResult implements Serializable{
 public static String fullurl;
     public static String thumburl;
     public static String title;
-
+    private static final long serialVersionUID = -203940993949039L;
     // new ImageSearchResult(..row json..)
     public ImageSearchResult(JSONObject json){
         try{
