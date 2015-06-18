@@ -1,4 +1,4 @@
-<h1>Instagram Client Demo</h1>
+<h1>GridSearchImage Demo</h1>
 
 <p>
 This is an Android demo application for displaying the Images  using the Google  API.
